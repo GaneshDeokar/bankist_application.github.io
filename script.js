@@ -11,9 +11,9 @@
 
 const account1 = {
   owner: 'Ganesh Deokar',
-  movements: [200, 455.23, -306.5, 25000, -642.21, -133.9, 79.97, 1300],
+  movements: [200, 400, 500, 2500, -600, -133.9, 79.97, 1300],
   interestRate: 1.2, // %
-  pin: 1111,
+  pin: 2111,
 
   movementsDates: [
     '2019-11-18T21:31:17.178Z',
@@ -25,15 +25,15 @@ const account1 = {
     '2020-07-11T23:36:17.929Z',
     '2020-07-12T10:51:36.790Z',
   ],
-  currency: 'EUR',
-  locale: 'pt-PT', // de-DE
+  currency: 'INR',
+  locale: 'en-US', 
 };
 
 const account2 = {
   owner: 'Priya Gupta ',
-  movements: [5000, 3400, -150, -790, -3210, -1000, 8500, -30],
+  movements: [1000, 3400, -150, -790, -3210, -1000, 300, -30],
   interestRate: 1.5,
-  pin: 2222,
+  pin: 1234,
 
   movementsDates: [
     '2019-11-01T13:15:33.035Z',
@@ -45,11 +45,49 @@ const account2 = {
     '2020-06-25T18:49:59.371Z',
     '2020-07-26T12:01:20.894Z',
   ],
-  currency: 'USD',
+  currency: 'INR',
   locale: 'en-US',
 };
 
-const accounts = [account1, account2];
+const account3 = {
+  owner: 'Rohit Mehra ',
+  movements: [10000, 34003, -15000, -790, -3210, 10000, 300, -30],
+  interestRate: 1.5,
+  pin: 0000,
+
+  movementsDates: [
+    '2019-11-01T13:15:33.035Z',
+    '2019-11-30T09:48:16.867Z',
+    '2019-12-25T06:04:23.907Z',
+    '2020-01-25T14:18:46.235Z',
+    '2020-02-05T16:33:06.386Z',
+    '2020-04-10T14:43:26.374Z',
+    '2020-06-25T18:49:59.371Z',
+    '2020-07-26T12:01:20.894Z',
+  ],
+  currency: 'INR',
+  locale: 'en-US',
+};
+const account4 = {
+  owner: 'Krish Krish', 
+  movements: [500, 3400, -150, -790, -320, -1000, 300, -30],
+  interestRate: 1.5,
+  pin: 0101,
+
+  movementsDates: [
+    '2019-11-01T13:15:33.035Z',
+    '2019-11-30T09:48:16.867Z',
+    '2019-12-25T06:04:23.907Z',
+    '2020-01-25T14:18:46.235Z',
+    '2020-02-05T16:33:06.386Z',
+    '2020-04-10T14:43:26.374Z',
+    '2020-06-25T18:49:59.371Z',
+    '2020-07-26T12:01:20.894Z',
+  ],
+  currency: 'INR',
+  locale: 'en-US',
+};
+const accounts = [account1, account2, account3, account4];
 
 /////////////////////////////////////////////////
 // Elements
