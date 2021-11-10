@@ -53,7 +53,7 @@ const account3 = {
   owner: 'Rohit Mehra ',
   movements: [10000, 34003, -15000, -790, -3210, 10000, 300, -30],
   interestRate: 1.5,
-  pin: 0000,
+  pin: 1122,
 
   movementsDates: [
     '2019-11-01T13:15:33.035Z',
